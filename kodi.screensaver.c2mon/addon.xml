@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="kodi.screensaver.pimon" name="pimon" version="0.3.2" provider-name="Tim Ker">
+<addon id="kodi.screensaver.c2mon" name="C2Mon" version="0.1" provider-name="BrozikCZ">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="xbmc.addon"  version="12.0.0"/>
@@ -9,13 +9,9 @@
     <extension point="xbmc.addon.metadata">
         <provides>executable</provides>
         <platform>linux</platform>
-        <language/>
-        <website></website>
-        <source>https://github.com/timker/kodi.screensaver.pimon</source>
-        <forum>http://forum.kodi.tv/showthread.php?tid=163016&amp;pid=1995838#pid1995838</forum>
-        <email></email>
-        <summary lang="en"></summary>
-        <description>Toggles HDMI on Raspberry Pi devices</description>
+        <source>https://github.com/brozikcz/kodi.screensaver.c2mon</source>
+        <summary lang="en">Toggles HDMI on Odroid C2 device</summary>
+        <description lang="en">Toggles HDMI on Odroid C2 device</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     </extension>
 </addon>
